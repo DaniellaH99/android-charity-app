@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="UNICEF"
+        android:textColor="#FF000000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:text="Framsteg" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:progress="60" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:text="Unicef (United Nations Children's Fund), även kallad FN:s barnfond, är ett organ inom Förenta nationerna, grundat 1946.Unicef har verksamhet i över 190 länder. Arbetet kretsar kring bekämpning av fattigdom, barns rätt till överlevnad och utveckling, skydd mot våld och övergrepp, utbildning och jämställdhet, HIV/aids, katastrofarbete och opinionsbildning för barns rättigheter."
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Vill du donera till UNICEF?"
+        android:textColor="#FF000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="unicefdonateBtn"
+        android:text="Donera" />
+
+
+</LinearLayout>
